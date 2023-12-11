@@ -1,4 +1,5 @@
 import ContestHub from "../ContestHub/ContestHub"
+import EventManager from "../EventManager/EventManager"
 import TouchLajawab from "../TouchLajawab/TouchLajawab"
 
 /* eslint-disable react/no-unescaped-entities */
@@ -12,6 +13,7 @@ const Projects = () => {
             <div className="space-y-6 md:space-y-10 pb-5">
                 <ContestHub />
                 <TouchLajawab />
+                <EventManager />
             </div>
         </div>
     )
