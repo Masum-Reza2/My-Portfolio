@@ -9,7 +9,7 @@ const Projects = () => {
             <p className="font-bold py-3">Some standout projects I've crafted:</p>
 
             {/* projects */}
-            <div className="space-y-6 md:space-y-10">
+            <div className="space-y-6 md:space-y-10 pb-5">
                 <ContestHub />
                 <TouchLajawab />
             </div>

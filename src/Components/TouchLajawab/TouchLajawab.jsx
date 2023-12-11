@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import { FaEye } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa6";
 import Slider from "../Slider/Slider";
@@ -36,11 +37,11 @@ const TouchLajawab = () => {
                     <a className="btn-block" href="https://touch-lajawab.web.app" target="_blank" rel="noopener noreferrer">
                         <button className="btn btn-block btn-sm bg-orange-500 hover:bg-orange-300 text-white hover:text-black"><FaEye />Link to live site</button></a>
 
-                    <a className="btn-block" href="https://github.com/Porgramming-Hero-web-course/b8a11-client-side-Masum-Reza2" target="_blank" rel="noopener noreferrer">
+                    <a className="btn-block" href="https://github.com/Masum-Reza2/Touch-Lajawab-Client-side" target="_blank" rel="noopener noreferrer">
                         <button className="btn btn-block btn-sm bg-orange-500 hover:bg-orange-300 text-white hover:text-black"><FaGithub />Link to Github (Client)</button>
                     </a>
 
-                    <a className="btn-block" href="https://github.com/Porgramming-Hero-web-course/b8a11-server-side-Masum-Reza2" target="_blank" rel="noopener noreferrer">
+                    <a className="btn-block" href="https://github.com/Masum-Reza2/Touch-Lajawab-server-Side" target="_blank" rel="noopener noreferrer">
                         <button className="btn btn-block btn-sm bg-orange-500 hover:bg-orange-300 text-white hover:text-black"><FaGithub />Link to Github (Server)</button></a>
                 </div>
             </div>
