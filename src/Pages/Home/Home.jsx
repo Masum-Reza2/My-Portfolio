@@ -11,9 +11,7 @@ const Home = () => {
             <Skills />
             <div className="divider"></div>
             <Education />
-            <div className="h-[200vh]">
-                <Projects />
-            </div>
+            <Projects />
         </div>
     )
 }
