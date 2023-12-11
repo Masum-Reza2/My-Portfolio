@@ -4,9 +4,7 @@ import profile from '../../assets/profile-pic (5).png'
 import { Typewriter } from 'react-simple-typewriter'
 import { CiLocationOn } from "react-icons/ci";
 import { FaCircle } from "react-icons/fa";
-
-
-
+import { FaArrowDown } from "react-icons/fa";
 
 const Banner = () => {
     const message = [
@@ -21,7 +19,7 @@ const Banner = () => {
             <p className='flex items-center gap-3'><CiLocationOn className='text-green-500 text-lg font-bold' />Sylhet, Bangladesh</p>
             <p className='flex items-center gap-3 ml-1'><FaCircle className='text-green-500 text-xs' />Available for new projects</p>
             <div className='text-center my-2'>
-                <button className='py-3 btn bg-orange-500 hover:bg-orange-300 text-white hover:text-black'>Download Resume</button>
+                <button className='py-3 btn bg-orange-500 hover:bg-orange-300 text-white hover:text-black'>Download Resume<FaArrowDown /></button>
             </div>
         </div>
     </>
@@ -34,7 +32,7 @@ const Banner = () => {
                         <Typewriter words={message} loop={false} />
                     </span> </h1>
 
-                    <div className='hidden lg:block'>
+                    <div className='hidden lg:block text-[#4B5563]'>
                         <p>I'm a MERN stack developer (MongoDB, Express.js, React.js & Node.js) with a focus on creating (and occasionally designing) exceptional digital experiences that are fast, accessible, visually appealing, and responsive. Even though I have been creating web applications for over 8 months, I still love it as if it was something new</p>
                         {applyOnBoth}
                     </div>
@@ -44,7 +42,7 @@ const Banner = () => {
                 </div>
             </div>
 
-            <div className='lg:hidden'>
+            <div className='lg:hidden text-[#4B5563]'>
                 <p className='text-justify'>I'm a MERN stack developer (MongoDB, Express.js, React.js & Node.js) with a focus on creating (and occasionally designing) exceptional digital experiences that are fast, accessible, visually appealing, and responsive. Even though I have been creating web applications for over 8 months, I still love it as if it was something new.</p>
                 {applyOnBoth}
             </div>
