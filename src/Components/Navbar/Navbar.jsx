@@ -1,6 +1,14 @@
 import { NavLink } from "react-router-dom"
 
 const Navbar = () => {
+
+    // const handleActive = ({ isActive, isPending }) =>
+    //     isActive
+    //         ? "bg-white shadow bg-indigo-500 text-white"
+    //         : isPending
+    //             ? "pending"
+    //             : ""
+
     const navLinks = <>
         <li><NavLink to={'/'}>Home</NavLink></li>
         <li><NavLink to={'/skills'}>Skills</NavLink></li>
