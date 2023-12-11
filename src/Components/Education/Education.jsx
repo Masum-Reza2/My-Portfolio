@@ -14,7 +14,7 @@ const Education = () => {
                     </div>
                     <div className="md:w-[60%] space-y-3 md:space-y-5">
                         <h5 className="font-bold text-lg">Certificate of Secondary School</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet dapibus nibh ut faucibus nunc, egestas id amet porttitor. Pulvinar quisque sed amet, nulla nunc. Eleifend sodales posuere fusce tempus etiam et pellentesque. Molestie risus enim neque eget dui.</p>
+                        <p className="text-justify md:text-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet dapibus nibh ut faucibus nunc, egestas id amet porttitor. Pulvinar quisque sed amet, nulla nunc. Eleifend sodales posuere fusce tempus etiam et pellentesque. Molestie risus enim neque eget dui.</p>
                         <button className="btn btn-xs btn-success text-white ">see result</button>
                     </div>
                 </div>
@@ -28,7 +28,7 @@ const Education = () => {
                     </div>
                     <div className="md:w-[60%] space-y-3 md:space-y-5">
                         <h5 className="font-bold text-lg">Certificate of Higher Secondary</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet dapibus nibh ut faucibus nunc, egestas id amet porttitor. Pulvinar quisque sed amet, nulla nunc. Eleifend sodales posuere fusce tempus etiam et pellentesque. Molestie risus enim neque eget dui.</p>
+                        <p className="text-justify md:text-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet dapibus nibh ut faucibus nunc, egestas id amet porttitor. Pulvinar quisque sed amet, nulla nunc. Eleifend sodales posuere fusce tempus etiam et pellentesque. Molestie risus enim neque eget dui.</p>
                         <button className="btn btn-xs btn-success text-white ">cooming soon</button>
                     </div>
                 </div>
@@ -42,7 +42,7 @@ const Education = () => {
                     </div>
                     <div className="md:w-[60%] space-y-3 md:space-y-5">
                         <h5 className="font-bold text-lg">Certificate of web training</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet dapibus nibh ut faucibus nunc, egestas id amet porttitor. Pulvinar quisque sed amet, nulla nunc. Eleifend sodales posuere fusce tempus etiam et pellentesque. Molestie risus enim neque eget dui.</p>
+                        <p className="text-justify md:text-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet dapibus nibh ut faucibus nunc, egestas id amet porttitor. Pulvinar quisque sed amet, nulla nunc. Eleifend sodales posuere fusce tempus etiam et pellentesque. Molestie risus enim neque eget dui.</p>
                         <button className="btn btn-xs btn-success text-white ">see result</button>
                     </div>
                 </div>
