@@ -1,8 +1,15 @@
+import { Outlet } from "react-router-dom"
+import Navbar from "../Components/Navbar/Navbar"
+
 const Layout = () => {
     return (
-        <div>
-            main layout
-        </div>
+        <>
+            <Navbar />
+            <div className="min-h-[90vh]">
+                <Outlet />
+            </div>
+            footer
+        </>
     )
 }
 
