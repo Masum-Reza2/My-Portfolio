@@ -19,7 +19,7 @@ const Banner = () => {
             <p className='flex items-center gap-3'><CiLocationOn className='text-green-500 text-lg font-bold' />Sylhet, Bangladesh</p>
             <p className='flex items-center gap-3 ml-1'><FaCircle className='text-green-500 text-xs' />Available for new projects</p>
             <div className='text-center my-2'>
-                <button className='py-3 btn bg-orange-500 hover:bg-orange-300 text-white hover:text-black'>Download Resume<FaArrowDown /></button>
+                <button className='py-3 btn bg-orange-500 hover:bg-orange-300 text-white hover:text-black mt-5'>Download Resume<FaArrowDown /></button>
             </div>
         </div>
     </>
