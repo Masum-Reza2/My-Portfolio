@@ -24,7 +24,7 @@ const lajawabData = [
 const TouchLajawab = () => {
     return (
         <>
-            <div className="flex flex-col lg:flex-row-reverse lg:items-center rounded-md shadow-md shadow-orange-950">
+            <div data-aos="fade-right" className="flex flex-col lg:flex-row-reverse lg:items-center rounded-md shadow-md shadow-orange-950">
 
                 <div className="flex-1 h-full">
                     <Slider data={lajawabData} />
