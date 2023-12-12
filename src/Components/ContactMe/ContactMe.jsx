@@ -1,14 +1,50 @@
+import { useState } from "react";
 import { FaFlag } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
+import { CgSpinner } from "react-icons/cg";
+import Swal from "sweetalert2";
+
 
 const ContactMe = () => {
+
+    const [loading, setLoading] = useState(false)
+
     const handleSubmit = (e) => {
         e.preventDefault();
+        setLoading(true)
         const form = e.target;
         const name = form?.name?.value;
         const email = form?.email.value;
         const message = form?.message.value;
-        console.log(name, email, message)
+
+        const text = { name, email, message };
+
+        fetch("https://formsubmit.co/ajax/careerhunter4280@gmail.com", {
+            method: "POST",
+            headers: {
+                'Content-Type': 'application/json',
+                'Accept': 'application/json'
+            },
+            body: JSON.stringify(text)
+        })
+            .then(response => response.json())
+            .then(data => {
+                if (data?.success) {
+                    Swal.fire({
+                        position: "center",
+                        icon: "success",
+                        title: "Message sent!",
+                        showConfirmButton: false,
+                        timer: 1500
+                    });
+                }
+                setLoading(false);
+                form.reset();
+            })
+            .catch(error => {
+                console.log(error)
+                setLoading(false)
+            });
     }
     return (
         <div id="contact">
@@ -18,28 +54,28 @@ const ContactMe = () => {
 
                 <div className="order-2 md:order-1 md:col-span-8 space-y-3">
                     <h1 className="text-center font-medium text-lg">Leave me your message</h1>
-                    <div className="border p-3 shadow rounded-md shadow-black bg-orange-100">
+                    <div className="border p-3 shadow rounded-md shadow-black bg-orange-100 font-medium">
                         <form onSubmit={handleSubmit}>
                             <label className="form-control w-full">
                                 <div className="label">
                                     <span className="label-text">Your Full Name ( Required)</span>
                                 </div>
-                                <input name="name" type="text" placeholder="Type here" className="input input-bordered w-full" />
+                                <input required name="name" type="text" placeholder="Type here" className="input input-bordered w-full" />
                             </label>
                             <label className="form-control w-full">
                                 <div className="label">
                                     <span className="label-text">Your Email ( Required)</span>
                                 </div>
-                                <input name="email" type="text" placeholder="Type here" className="input input-bordered w-full" />
+                                <input required name="email" type="text" placeholder="Type here" className="input input-bordered w-full" />
                             </label>
                             <label className="form-control">
                                 <div className="label">
                                     <span className="label-text">Your Message</span>
                                 </div>
-                                <textarea name="message" className="textarea textarea-bordered h-28" placeholder="Type here"></textarea>
+                                <textarea required name="message" className="textarea textarea-bordered h-28" placeholder="Type here"></textarea>
                             </label>
                             <div className="text-center">
-                                <button className="btn mt-3 bg-orange-500 text-white hover:bg-orange-400" type="submit">send message</button>
+                                <button className="btn mt-3 bg-orange-500 text-white hover:bg-orange-400" type="submit">send message{loading && <CgSpinner className="animate-spin text-lg" />}</button>
                             </div>
                         </form>
                     </div>
