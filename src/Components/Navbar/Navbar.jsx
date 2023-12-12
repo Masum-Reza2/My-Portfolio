@@ -4,7 +4,7 @@ const Navbar = () => {
 
     // const handleActive = ({ isActive, isPending }) =>
     //     isActive
-    //         ? "bg-white shadow bg-indigo-500 text-white"
+    //         ? "border-b-2"
     //         : isPending
     //             ? "pending"
     //             : ""
