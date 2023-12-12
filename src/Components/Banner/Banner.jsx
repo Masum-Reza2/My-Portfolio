@@ -6,6 +6,8 @@ import { CiLocationOn } from "react-icons/ci";
 import { FaCircle } from "react-icons/fa";
 import { FaArrowDown } from "react-icons/fa";
 
+import resume from '../../assets/Resume.pdf';
+
 const Banner = () => {
     const message = [
         'Passionate MERN Stack Developer.',
@@ -19,7 +21,9 @@ const Banner = () => {
             <p className='flex items-center gap-3'><CiLocationOn className='text-green-500 text-lg font-bold' />Sylhet, Bangladesh</p>
             <p className='flex items-center gap-3 ml-1'><FaCircle className='text-green-500 text-xs' />Available for new projects</p>
             <div className='text-center my-2'>
-                <button className='py-3 btn bg-orange-500 hover:bg-orange-300 text-white hover:text-black mt-5'>Download Resume<FaArrowDown /></button>
+                <a href={resume} download={resume}>
+                    <button className='py-3 btn bg-orange-500 hover:bg-orange-300 text-white hover:text-black mt-5'>Download Resume<FaArrowDown /></button>
+                </a>
             </div>
         </div>
     </>

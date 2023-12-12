@@ -11,17 +11,17 @@ const Navbar = () => {
 
     const navLinks = <>
         <li><NavLink to={'/'}>Home</NavLink></li>
-        <li><NavLink to={'/skills'}>Skills</NavLink></li>
-        <li><NavLink to={'/experience'}>Experience</NavLink></li>
-        <li><NavLink to={'/education'}>Education</NavLink></li>
-        <li><NavLink to={'/about'}>About-me</NavLink></li>
-        <li><NavLink to={'/projects'}>Projects</NavLink></li>
-        <li><NavLink to={'/contact'}>Contact-Me</NavLink></li>
+        <li><a href="#skills">Skills</a></li>
+        {/* <li><a href="#experience">Experience</a></li> */}
+        <li><a href='#education'>Education</a></li>
+        {/* <li><a href='#about'>About-me</a></li> */}
+        <li><a href='#projects'>Projects</a></li>
+        <li><a href='#contact'>Contact-Me</a></li>
     </>
 
     return (
         <>
-            <div className="navbar bg-orange-400 shadow-md shadow-sky-950 border">
+            <div className="navbar bg-orange-400 lg:text-white fixed z-50">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

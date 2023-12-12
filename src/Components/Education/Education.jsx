@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 const Education = () => {
     return (
-        <div className="pb-5">
+        <div id="education" className="pb-5">
             <h1 className="btn btn-block btn-sm text-white lg:text-lg px-5 bg-orange-500 hover:bg-orange-500">Education</h1>
             {/* <p className="hidden lg:block py-3 md:py-5 text-justify md:text-center px-5 lg:px-64 text-[#4B5563]">Transitioning from a non-CS background, I've effectively mastered web development in 8 months. As a prospective HSC candidate for 2024, I'm poised to pursue a Bachelor's degree, contemplating a major in either English or Geography. My journey underscores a commitment to diverse learning and the seamless integration of newfound skills.</p> */}
 

@@ -2,8 +2,16 @@ import { FaFlag } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 
 const ContactMe = () => {
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        const form = e.target;
+        const name = form?.name?.value;
+        const email = form?.email.value;
+        const message = form?.message.value;
+        console.log(name, email, message)
+    }
     return (
-        <div>
+        <div id="contact">
             <h1 className="btn btn-block btn-sm text-white lg:text-lg px-5 bg-orange-500 hover:bg-orange-500">Contact me</h1>
 
             <div className="grid md:grid-cols-12 py-3 md:py-5 gap-5">
@@ -11,24 +19,24 @@ const ContactMe = () => {
                 <div className="order-2 md:order-1 md:col-span-8 space-y-3">
                     <h1 className="text-center font-medium text-lg">Leave me your message</h1>
                     <div className="border p-3 shadow rounded-md shadow-black bg-orange-100">
-                        <form>
+                        <form onSubmit={handleSubmit}>
                             <label className="form-control w-full">
                                 <div className="label">
                                     <span className="label-text">Your Full Name ( Required)</span>
                                 </div>
-                                <input type="text" placeholder="Type here" className="input input-bordered w-full" />
+                                <input name="name" type="text" placeholder="Type here" className="input input-bordered w-full" />
                             </label>
                             <label className="form-control w-full">
                                 <div className="label">
                                     <span className="label-text">Your Email ( Required)</span>
                                 </div>
-                                <input type="text" placeholder="Type here" className="input input-bordered w-full" />
+                                <input name="email" type="text" placeholder="Type here" className="input input-bordered w-full" />
                             </label>
                             <label className="form-control">
                                 <div className="label">
                                     <span className="label-text">Your Message</span>
                                 </div>
-                                <textarea className="textarea textarea-bordered h-28" placeholder="Type here"></textarea>
+                                <textarea name="message" className="textarea textarea-bordered h-28" placeholder="Type here"></textarea>
                             </label>
                             <div className="text-center">
                                 <button className="btn mt-3 bg-orange-500 text-white hover:bg-orange-400" type="submit">send message</button>
