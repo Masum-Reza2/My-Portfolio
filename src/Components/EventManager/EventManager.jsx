@@ -22,7 +22,7 @@ const evntData = [
 const EventManager = () => {
     return (
         <>
-            <div className="flex flex-col lg:flex-row lg:items-center rounded-md shadow-md shadow-orange-900">
+            <div className="flex flex-col lg:flex-row lg:items-center rounded-md shadow-md shadow-orange-950">
 
                 <div className="flex-1 h-full">
                     <Slider data={evntData} />

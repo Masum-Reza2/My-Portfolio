@@ -7,7 +7,7 @@ const Education = () => {
 
             <div className="mt-3 space-y-2">
                 {/* ssc */}
-                <div className="flex flex-col md:flex-row p-5 rounded-md shadow shadow-red-900">
+                <div className="flex flex-col md:flex-row p-5 rounded-md shadow shadow-orange-950 ">
                     <div className="md:w-[40%] space-y-3 md:space-y-5 ">
                         <h5 className="font-bold text-lg">Kalenga High School</h5>
                         <p>Student : <span className="ml-3 bg-orange-400 text-white px-2 rounded">Jan 2016 - Feb 2018</span></p>
@@ -21,7 +21,7 @@ const Education = () => {
                 <div className="divider"></div>
 
                 {/* hsc */}
-                <div className="flex flex-col md:flex-row p-5 rounded-md shadow shadow-red-900">
+                <div className="flex flex-col md:flex-row p-5 rounded-md shadow shadow-orange-950 ">
                     <div className="md:w-[40%] space-y-3 md:space-y-5 ">
                         <h5 className="font-bold text-lg">Moulvibazar Govt. Collage</h5>
                         <p>Student : <span className="ml-3 bg-orange-400 text-white px-2 rounded">Jan 2022 - Apr 2024</span></p>
@@ -35,7 +35,7 @@ const Education = () => {
                 <div className="divider"></div>
 
                 {/* programming hero */}
-                <div className="flex flex-col md:flex-row p-5 rounded-md shadow shadow-red-900">
+                <div className="flex flex-col md:flex-row p-5 rounded-md shadow shadow-orange-950 ">
                     <div className="md:w-[40%] space-y-3 md:space-y-5 ">
                         <h5 className="font-bold text-lg">Programming Hero</h5>
                         <p>Student : <span className="ml-3 bg-orange-400 text-white px-2 rounded">June 2023 - December 2023</span></p>

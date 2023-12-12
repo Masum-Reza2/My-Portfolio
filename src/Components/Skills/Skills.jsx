@@ -80,7 +80,7 @@ const mySkills = [
 
 const Skills = () => {
     return (
-        <div id='skills' className=" shadow-md shadow-orange-900 rounded-lg">
+        <div id='skills' className=" shadow shadow-orange-950 rounded-lg">
             <div className="text-center mt-7">
                 <p className="btn btn-block btn-sm text-white lg:text-lg px-5 bg-orange-500 hover:bg-orange-500">Skills</p>
                 <p className="py-3">The skills, tools and technologies I am really good at:</p>

@@ -54,7 +54,7 @@ const ContactMe = () => {
 
                 <div className="order-2 md:order-1 md:col-span-8 space-y-3">
                     <h1 className="text-center font-medium text-lg">Leave me your message</h1>
-                    <div className="border p-3 shadow rounded-md shadow-black bg-orange-100 font-medium">
+                    <div className=" p-3 shadow rounded-md shadow-orange-950 bg-orange-100 font-medium">
                         <form onSubmit={handleSubmit}>
                             <label className="form-control w-full">
                                 <div className="label">
@@ -83,7 +83,7 @@ const ContactMe = () => {
 
                 <div className="order-1 md:order-2 md:col-span-4 space-y-3">
                     <h1 className="text-center font-medium text-lg">Contact information</h1>
-                    <div className="border p-3 lg:p-5 shadow rounded-md font-medium text-sm shadow-black bg-orange-100">
+                    <div className=" p-3 lg:p-5 shadow rounded-md font-medium text-sm shadow-orange-950 bg-orange-100">
                         <FaFlag className="mx-auto bg-orange-300 rounded-full text-4xl p-2" />
                         <div className="flex justify-between">
                             <div>
@@ -103,7 +103,7 @@ const ContactMe = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="border p-3 lg:p-5 shadow rounded-md font-medium text-sm shadow-black bg-orange-100">
+                    <div className=" p-3 lg:p-5 shadow rounded-md font-medium text-sm shadow-orange-950 bg-orange-100">
                         <MdEmail className="mx-auto bg-orange-300 rounded-full text-4xl p-2" />
                         <div className="flex justify-between">
                             <div>
