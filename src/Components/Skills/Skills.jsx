@@ -88,7 +88,7 @@ const Skills = () => {
             <div className="grid grid-cols-3 md:grid-cols-5  py-5 lg:py-10 place-items-center gap-10 text-center px-10">
 
                 {
-                    mySkills?.map((skill, index) => <div className='' key={index}>
+                    mySkills?.map((skill, index) => <div className='' key={index} data-aos="zoom-in">
                         <img className='w-[50px] mx-auto transition-all cursor-pointer hover:scale-110 duration-300' src={skill?.img} alt="" />
                         <p>{skill?.name}</p>
                     </div>)

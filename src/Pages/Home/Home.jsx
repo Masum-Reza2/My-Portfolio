@@ -9,8 +9,14 @@ const Home = () => {
         <div>
             <Banner />
             <div className="divider"></div>
-            <Skills />
+            <div
+                data-aos="fade-right"
+                data-aos-duration="500"
+            >
+                <Skills />
+            </div>
             <div className="divider"></div>
+
             <Education />
             <Projects />
             <div className="divider"></div>
