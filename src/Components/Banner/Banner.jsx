@@ -29,7 +29,7 @@ const Banner = () => {
     </>
 
     return (
-        <>
+        <div id='home'>
             <div className="md:grid grid-cols-12 py-3 md:py-5 space-y-2 md:space-y-0">
                 <div className="md:col-span-8 text-center md:flex flex-col items-center justify-center">
                     <h1 className='text-2xl md:text-4xl font-bold min-h-[25vh]'>Hi i’m <span className='text-orange-500'>Masum Reza.</span> <br /> <span className='text-green-700'>
@@ -50,7 +50,7 @@ const Banner = () => {
                 <p className='text-justify'>I'm a MERN stack developer (MongoDB, Express.js, React.js & Node.js) with a focus on creating (and occasionally designing) exceptional digital experiences that are fast, accessible, visually appealing, and responsive. Even though I have been creating web applications for over 8 months, I still love it as if it was something new.</p>
                 {applyOnBoth}
             </div>
-        </>
+        </div>
     )
 }
 

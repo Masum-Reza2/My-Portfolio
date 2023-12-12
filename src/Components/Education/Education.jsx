@@ -13,7 +13,7 @@ const Education = () => {
                     </div>
                     <div className="md:w-[60%] space-y-3 md:space-y-5">
                         <h5 className="font-bold text-lg">Certificate of Secondary School</h5>
-                        <p className="text-justify md:text-start">I'm Masum Reza. In 2018, I aced my exams with a GPA of 5 in humanities, earning a scholarship and topping my district. I loved playing sports back then. Now, as a web developer, I use my MERN skills to create amazing things online. It's a journey from academic success to tech innovation, fueled by a passion for continuous learning.</p>
+                        <p className="text-justify md:text-start">In 2018, I aced my exams with a GPA of 5 in humanities, earning a scholarship and topping my district. I loved playing sports back then. Now, as a web developer, I use my MERN skills to create amazing things online. It's a journey from academic success to tech innovation, fueled by a passion for continuous learning.</p>
                         <button className="btn btn-xs btn-success text-white ">see result</button>
                     </div>
                 </div>
