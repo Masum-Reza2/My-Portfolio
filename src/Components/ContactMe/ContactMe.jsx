@@ -117,7 +117,7 @@ const ContactMe = () => {
                                 <p>-</p>
                             </div>
                             <div>
-                                <p>careerhunter4280@gmail.com</p>
+                                <p>masumreza4280@gmail.com</p>
                                 <a href="https://www.linkedin.com/in/masum-reza-4935b92a0" target="_blank" rel="noopener noreferrer">@Masum-reza</a>
                                 <p><a href="https://github.com/Masum-Reza2" target="_blank" rel="noopener noreferrer">@masum-reza</a></p>
                             </div>
