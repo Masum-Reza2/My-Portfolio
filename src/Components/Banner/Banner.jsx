@@ -6,7 +6,7 @@ import { CiLocationOn } from "react-icons/ci";
 import { FaCircle } from "react-icons/fa";
 import { FaArrowDown } from "react-icons/fa";
 
-import resume from '../../assets/Masum-Reza-Resume.docx.pdf';
+import resume from '../../assets/MasumRezasResume.pdf'
 
 const Banner = () => {
     const message = [

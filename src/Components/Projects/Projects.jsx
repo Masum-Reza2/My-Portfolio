@@ -1,3 +1,4 @@
+import CommerceBook from "../CommerceBook/CommerceBook"
 import ContestHub from "../ContestHub/ContestHub"
 import EventManager from "../EventManager/EventManager"
 import TaskManager from "../TaskManager/TaskManager"
@@ -12,9 +13,10 @@ const Projects = () => {
 
             {/* projects */}
             <div className="space-y-6 md:space-y-10 pb-5">
+                <CommerceBook />
                 <ContestHub />
                 <TouchLajawab />
-                <TaskManager/>
+                <TaskManager />
                 <EventManager />
             </div>
         </div>
